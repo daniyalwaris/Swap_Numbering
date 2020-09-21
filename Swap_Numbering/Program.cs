@@ -8,14 +8,24 @@ namespace Swap_Numbering
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] argms)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            int x = 20;
+            int y = 30;
+            Console.WriteLine("Numbers before swapping");
+            Console.WriteLine(" number x is " + x);
+            Console.WriteLine("number y is " + y);
+            // Swapping numbers
+            x = x + y;
+            y = x - y;
+            x = x - y;
+
+            Console.WriteLine("Numbers after swapping");
+            Console.WriteLine("number x is" + x);
+            Console.WriteLine("number y is " + y); 
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+           
         }
     }
 }
