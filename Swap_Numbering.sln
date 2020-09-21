@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap_Numbering", "Swap_Numbering\Swap_Numbering.csproj", "{70F287CB-BF68-4DE1-95CA-2147C365661E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70F287CB-BF68-4DE1-95CA-2147C365661E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F287CB-BF68-4DE1-95CA-2147C365661E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F287CB-BF68-4DE1-95CA-2147C365661E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F287CB-BF68-4DE1-95CA-2147C365661E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33BE7EB3-3F23-480E-9796-EBD74B52E30E}
+	EndGlobalSection
+EndGlobal
